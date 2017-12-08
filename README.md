@@ -18,7 +18,7 @@
 - In ```Configure Project``` window select **"Desktop Qt 5.9.1 GCC 64bit"** kit and select ```Configure Project``` button.
 - Goto ```Build``` -> ```Run``` to run the program.
 ## Screenshots
-<img src="misc/screenshot1.png" width="400"> <img src="misc/screenshot2.png" width="400">
+<img src="misc/image1.png" width="400"> <img src="misc/image2.png" width="400">
 ## Changelog
 - [x] Read and display DICOM images using VTK
 - [x] Display all three views - axial, coronal and sagittal
