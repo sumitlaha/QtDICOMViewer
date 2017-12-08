@@ -6,4 +6,10 @@
 - GDCM 2.6.3
 ## Screenshots
 <img src="https://github.com/codeman110/QtDICOMViewer/blob/master/misc/screenshot1.png" width="400"> <img src="https://github.com/codeman110/QtDICOMViewer/blob/master/misc/screenshot2.png" width="400">
-
+## Changelog
+- [x] Read and display DICOM images using VTK
+- [x] Display all three views - axial, coronal and sagittal
+- [x] Read images using ITK and display images using VTK
+- [x] Display image metadata
+- [ ] Simultaneous image interaction for all three views (change in intensity/color)
+- [ ] User guide (software manual)
