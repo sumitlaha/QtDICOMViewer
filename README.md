@@ -11,6 +11,7 @@
   - Change slices
   - Change intensity/color
  - View image metadata
+ - Refesh button to reset the images
 ## Installing software
 - Install prerequisite frameworks.
 - Download and unzip the contents of [QtDICOMViewer](https://github.com/codeman110/QtDICOMViewer/archive/master.zip).
@@ -20,7 +21,7 @@
 - Goto ```Build``` -> ```Run``` to run the program.
 ## Screenshots
 <img src="misc/image1.png" width="400"> <img src="misc/image2.png" width="400">
-## Changelog
+## Milestone
 - [x] Read and display DICOM images using VTK
 - [x] Display all three views - axial, coronal and sagittal
 - [x] Read images using ITK and display images using VTK
