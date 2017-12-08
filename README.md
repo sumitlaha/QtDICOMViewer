@@ -1,1 +1,2 @@
-# DICOM_viewer
+# User interface for DICOM images
+
