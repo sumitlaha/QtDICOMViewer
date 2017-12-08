@@ -15,7 +15,7 @@
 - Download and unzip the contents of [QtDICOMViewer](https://github.com/codeman110/QtDICOMViewer/archive/master.zip).
 - Open **QtCreator**.
 - Goto ```File``` -> ```Open File or Project``` and open the **"QtDICOMViewer.pro"** file.
-- In **Configure Project** window select **"Desktop Qt 5.9.1 GCC 64bit"** kit and select **Configure Project** button.
+- In ```Configure Project``` window select **"Desktop Qt 5.9.1 GCC 64bit"** kit and select ```Configure Project``` button.
 ## Screenshots
 <img src="misc/screenshot1.png" width="400"> <img src="misc/screenshot2.png" width="400">
 ## Changelog
