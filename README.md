@@ -10,9 +10,13 @@
   - Translate and scale images
   - Change slices
   - Change intensity/color
-
+## Installing software
+- Install prerequisite frameworks
+- Download and unzip the contents of [QtDICOMViewer](https://github.com/codeman110/QtDICOMViewer/archive/master.zip)
+- Open QtCreator
+- Goto 
 ## Screenshots
-<img src="https://github.com/codeman110/QtDICOMViewer/blob/master/misc/screenshot1.png" width="400"> <img src="https://github.com/codeman110/QtDICOMViewer/blob/master/misc/screenshot2.png" width="400">
+<img src=misc/screenshot1.png" width="400"> <img src="misc/screenshot2.png" width="400">
 ## Changelog
 - [x] Read and display DICOM images using VTK
 - [x] Display all three views - axial, coronal and sagittal
