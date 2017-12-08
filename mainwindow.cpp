@@ -5,18 +5,15 @@
 
 MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow) {
     ui->setupUi(this);
-    createStatusBar();
+    setUI();
 
-    ui->tableMetaData->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
-
+    // Assign renderer to views
     renderer = vtkSmartPointer<vtkRenderer>::New();
-
-    // VTK Renderer
     ui->qvtkWidgetAxl->GetRenderWindow()->AddRenderer(renderer);
     ui->qvtkWidgetCor->GetRenderWindow()->AddRenderer(renderer);
     ui->qvtkWidgetSag->GetRenderWindow()->AddRenderer(renderer);
 
-    on_actionImageMetaData_triggered(false);
+
 }
 
 MainWindow::~MainWindow() {
@@ -143,7 +140,11 @@ void MainWindow::showSag() {
     ui->lblCurrentSliceSag->setText("Slice: "+QString::number(viewerSag->GetSlice()+1)+" of "+QString::number(maxSliceSag+1));
 }
 
-void MainWindow::createStatusBar() {
+void MainWindow::setUI() {
+    ui->toolBar->setStyleSheet("QToolBar{background:silver;}");
+    ui->tableMetaData->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    on_actionImageMetaData_triggered(false);
+    // Create status bar
     statusLabelSlices = new QLabel(this);
     statusLabelFolder = new QLabel(this);
     statusLabelSlices->setText("Images:");

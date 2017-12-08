@@ -49,6 +49,7 @@ public:
     ~MainWindow();
 
 private slots:
+    void setUI();
     void openDICOMFolder();
     void drawDICOMSeries(std::string folderDICOM);
     void initialization();
@@ -61,8 +62,6 @@ private slots:
     void on_actionExit_triggered();
     void on_actionImageMetaData_triggered(bool checked);
     void on_actionRefresh_triggered();
-    // StatusBar
-    void createStatusBar();
     // Scrollbar
     void on_hScrollBarAxl_valueChanged(int value);
     void on_hScrollBarCor_valueChanged(int value);
