@@ -4,6 +4,13 @@
 - ITK 4.12
 - VTK 8.0
 - GDCM 2.6.3
+## Features
+- View DICOM images in three separate views (axial, coronal and sagittal)
+- Interact with images
+  - Translate and scale images
+  - Change slices
+  - Change intensity/color
+
 ## Screenshots
 <img src="https://github.com/codeman110/QtDICOMViewer/blob/master/misc/screenshot1.png" width="400"> <img src="https://github.com/codeman110/QtDICOMViewer/blob/master/misc/screenshot2.png" width="400">
 ## Changelog
