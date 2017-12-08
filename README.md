@@ -1,5 +1,5 @@
 # DICOM Viewer - A basic application to view DICOM images developed in Qt for Ubuntu platform.
-## Frameworks
+## Prerequisite Frameworks
 - Qt 5.9.1
 - ITK 4.12
 - VTK 8.0
