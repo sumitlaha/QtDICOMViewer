@@ -17,7 +17,7 @@
    </sizepolicy>
   </property>
   <property name="windowTitle">
-   <string>Prostate Project</string>
+   <string>DICOM Viewer</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QVTKWidget" name="qvtkWidgetAxl" native="true">
