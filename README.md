@@ -16,7 +16,7 @@
 - Open QtCreator
 - Goto 
 ## Screenshots
-<img src=misc/screenshot1.png" width="400"> <img src="misc/screenshot2.png" width="400">
+<img src="misc/screenshot1.png" width="400"> <img src="misc/screenshot2.png" width="400">
 ## Changelog
 - [x] Read and display DICOM images using VTK
 - [x] Display all three views - axial, coronal and sagittal
