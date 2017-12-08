@@ -10,6 +10,7 @@
   - Translate and scale images
   - Change slices
   - Change intensity/color
+ - View image metadata
 ## Installing software
 - Install prerequisite frameworks.
 - Download and unzip the contents of [QtDICOMViewer](https://github.com/codeman110/QtDICOMViewer/archive/master.zip).
