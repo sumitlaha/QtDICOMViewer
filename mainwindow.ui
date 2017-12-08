@@ -372,7 +372,7 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset resource="images.qrc">
+    <iconset>
      <normaloff>:/images/ic_marker_add.png</normaloff>:/images/ic_marker_add.png</iconset>
    </property>
    <property name="text">
@@ -387,7 +387,7 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset resource="images.qrc">
+    <iconset>
      <normaloff>:/images/ic_marker_del.png</normaloff>:/images/ic_marker_del.png</iconset>
    </property>
    <property name="text">
@@ -438,7 +438,7 @@
     <bool>false</bool>
    </property>
    <property name="icon">
-    <iconset resource="images.qrc">
+    <iconset>
      <normaloff>:/images/ic_marker_clear.png</normaloff>:/images/ic_marker_clear.png</iconset>
    </property>
    <property name="text">
