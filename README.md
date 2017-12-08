@@ -13,8 +13,8 @@
 ## Installing software
 - Install prerequisite frameworks
 - Download and unzip the contents of [QtDICOMViewer](https://github.com/codeman110/QtDICOMViewer/archive/master.zip)
-- Open QtCreator
-- Goto 
+- Open **QtCreator**
+- Goto ```File``` -> ```Open File or Project``` and open the "QtDICOM.pro" file
 ## Screenshots
 <img src="misc/screenshot1.png" width="400"> <img src="misc/screenshot2.png" width="400">
 ## Changelog
