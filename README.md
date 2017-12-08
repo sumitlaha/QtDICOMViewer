@@ -26,3 +26,4 @@
 - [x] Display image metadata
 - [ ] Simultaneous image interaction for all three views (change in intensity/color)
 - [ ] User guide (software manual)
+- [ ] Support for other medical image file formats
